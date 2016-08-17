@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/BookCardLayout_background"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/thumbnail_image"
+            style="@style/BookCardLayout_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/iron_man"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/BookCardLayout_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sherlock Holmes : \nA game of shadows" />
+
+            <TextView
+                android:id="@+id/authors_tag"
+                style="@style/BookCardLayout_authors_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:text="Authors : " />
+
+            <TextView
+                android:id="@+id/authors"
+                style="@style/BookCardLayout_authors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/authors_tag"
+                android:text="J.R.R Tolkein, Arthur Conan Doyle, Mark Gattis"/>
+
+            <!-- padding is used in this case because
+                we want the text view to be bigger so that
+                it is easier to click on -->
+
+            <TextView
+                android:id="@+id/show_more"
+                style="@style/BookCardLayout_link_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show more"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/preview"
+                style="@style/BookCardLayout_link_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preview"
+                android:textColor="#29B6F6"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
