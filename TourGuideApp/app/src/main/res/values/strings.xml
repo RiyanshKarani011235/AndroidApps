@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="activity_main_places_text">places</string>
+    <string name="activity_main_food_text">food</string>
+
+    <string name="places_activity_1_name">gateway of india</string>
+    <string name="places_activity_1_location">18.921883,72.835255</string>
+    <string name="places_activity_1_shortDescription">The Gateway of India is a monument built during the 20th century in Mumbai City of Maharashtra state in Western India.</string>
+    <string name="places_activity_1_description">The Gateway of India is a monument built during the 20th century in Mumbai City of Maharashtra state in Western India. It is located on the waterfront in the Apollo Bunder area in South Mumbai and overlooks the Arabian Sea. The structure is a basalt arch, 26 metres (85 feet) high. It lies at the end of Chhatrapati Shivaji Marg at the water\'s edge in Mumbai Harbour. It was a crude jetty used by the fishing community which was later renovated and used as a landing place for British governors and other prominent people. In earlier times, it would have been the first structure that visitors arriving by boat in Mumbai would have seen. The Gateway has also been referred to as the Taj Mahal of Mumbai, and is the city\'s top tourist attraction.</string>
+    <string name="places_activity_1_timings">always open</string>
+
+    <string name="places_activity_2_name">girgaum chowpatty</string>
+    <string name="places_activity_2_location">18.954372,72.812714</string>
+    <string name="places_activity_2_shortDescription">Girgaon Chaupati\', commonly known as Chaupati, is one of the best known public beaches adjoining Marine Drive in the Girgaon area of Mumbai, India.</string>
+    <string name="places_activity_2_description">Girgaon Chaupati\' (Marathi:गिरगाव चौपाटी), commonly known as Chaupati (pronounced \'chow-patty\'), is one of the best known public beaches adjoining Marine Drive in the Girgaon area of Mumbai, India. The beach is noted for its Ganesh Chaturthi celebrations when thousands of people from all over Mumbai come to immerse the idols of Lord Ganapati in the Arabian Sea. It is also one of the many places in the city where the Ramlila is performed on a stage every year. </string>
+    <string name="places_activity_2_timings">always open</string>
+
+    <string name="places_activity_3_name">elephanta caves</string>
+    <string name="places_activity_3_location">18.963327,72.931561</string>
+    <string name="places_activity_3_shortDescription">Island with an ornately sculpted, 7th-century cave temple dedicated to the Hindu god Shiva.</string>
+    <string name="places_activity_3_description">Elephanta caves are a network of sculpted caves located on Elephanta Island, or Gharapuri (literally "the city of caves") in Mumbai Harbour, 10 kilometres (6.2 mi) to the east of the city of Mumbai in the Indian state of Maharashtra. The island, located on an arm of the Arabian Sea, consists of two groups of caves—the first is a large group of five Hindu caves, the second, a smaller group of two Buddhist caves. The Hindu caves contain rock cut stone sculptures, representing the Shaiva Hindu sect, dedicated to the Lord Shiva.</string>
+    <string name="places_activity_3_timings">always open</string>
+
+    <string name="places_activity_4_name">sanjay gandhi national park</string>
+    <string name="places_activity_4_location">19.230212,72.898829</string>
+    <string name="places_activity_4_shortDescription">Island with an ornately sculpted, 7th-century cave temple dedicated to the Hindu god Shiva.</string>
+    <string name="places_activity_4_description">Elephanta caves are a network of sculpted caves located on Elephanta Island, or Gharapuri (literally "the city of caves") in Mumbai Harbour, 10 kilometres (6.2 mi) to the east of the city of Mumbai in the Indian state of Maharashtra. The island, located on an arm of the Arabian Sea, consists of two groups of caves—the first is a large group of five Hindu caves, the second, a smaller group of two Buddhist caves. The Hindu caves contain rock cut stone sculptures, representing the Shaiva Hindu sect, dedicated to the Lord Shiva.</string>
+    <string name="places_activity_4_timings">always open</string>
+
+    <string name="restaurants_activity_1_name">Vada Pav @ Anand</string>
+    <string name="restaurants_activity_1_location">19.103191,72.837700</string>
+    <string name="restaurants_activity_1_shortDescription">It\'s every Mumbaikar\'s grab-and-go snack</string>
+    <string name="restaurants_activity_1_description">Potato patties mashed with garlic, chillies and coriander are dipped in chickpea flour, fried golden, then laid in \"pav\" – a springy white bap that\'s well buttered, spread with coriander chutney and sprinkled with garlic and chilli powder. Everyone from students to businessmen flock to the Anand stall, under a purple and green awning, which whips up more than a thousand a day.</string>
+    <string name="restaurants_activity_1_timings">Everyday : 8:30 a.m to 10:00 p.m</string>
+
+    <string name="restaurants_activity_2_name">Pani puri @ Elco Pani Puri Centre</string>
+    <string name="restaurants_activity_2_location">19.056694,72.833156</string>
+    <string name="restaurants_activity_2_shortDescription">Eat it whole, and unless you have a stomach of steel, don\'t go anywhere but Elco Pani Puri Centre</string>
+    <string name="restaurants_activity_2_description">The craft is part of the fun: vendors poke a thumb into a crisp fried sphere, fill it with potato, chickpeas, onion and sprouted lentils, then dunk it into a sweet-and-sour mix of tamarind and jaggery, then a liquid blend of coriander, mint and garam masala. Eat it whole, and unless you have a stomach of steel, don\'t go anywhere but Elco Pani Puri Centre, where they use mineral water. Pull up a red plastic stool and sit on the pavement with Bandra\'s locals, and the occasional Bollywood actress.</string>
+    <string name="restaurants_activity_2_timings">Everyday : 10:00 a.m to 10:00 p.m</string>
+
+    <string name="restaurants_activity_3_name">Indigo Delicatessen, various locations</string>
+    <string name="restaurants_activity_3_location">18.924185,72.834822</string>
+    <string name="restaurants_activity_3_shortDescription">International gourmet meets delicatessen at this stylish contemporary chain restaurant.</string>
+    <string name="restaurants_activity_3_description">Indigo Deli is both a restaurant and fine food/kitchen store with a unique offering of bakery, patisserie, café menu and gourmet retail, set in an ambience of social conviviality.</string>
+    <string name="restaurants_activity_3_timings">Everyday : 8:30 a.m to 12 a.m</string>
+
+    <string name="restaurants_activity_4_name">Bhel puri @ Sharmajee\'s and Badshah\'s</string>
+    <string name="restaurants_activity_4_location">19.101077,72.846242</string>
+    <string name="restaurants_activity_4_shortDescription">Bhel puri is one of the most common all-day snacks: a crunchy, cold, sweet-and-sour mix of puffed rice, sev, chopped onion and potato, and tamarind chutney. </string>
+    <string name="restaurants_activity_4_description">Bhel puri is one of the most common all-day snacks: a crunchy, cold, sweet-and-sour mix of puffed rice, sev, chopped onion and potato, and tamarind chutney. It has to be mixed and eaten on the spot, and most vendors will concoct their own variations. Chowpatty Beach is the home of bhel puri, where it should be eaten while strolling along the shore. Try Sharmajee\'s (No 22) or Badshah\'s (No 11), amid the cluster of stalls opposite the Levi\'s Store, where rugs are spread out and bhel puri \"touts\" will bring it over to you.</string>
+    <string name="restaurants_activity_4_timings">Everyday : 7:30 a.m to 12:00 a.m</string>
+
+
+</resources>

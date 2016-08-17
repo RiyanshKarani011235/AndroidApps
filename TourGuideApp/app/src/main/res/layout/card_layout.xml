@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#EEEEEE"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/CardLayout_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            style="@style/CardLayout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iron_man"/>
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/CardLayout_name"
+            android:layout_width="match_parent"
+            android:layout_alignBottom="@id/image"
+            android:text="name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/short_description_text"
+                style="@style/CardLayout_descriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Twinkle twinkle little start, how I wonder what you are. Up above the world so high, like a diamond in the sky."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/see_more"
+                    style="@style/CardLayout_seeMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="see more"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/get_directions"
+                    style="@style/CardLayout_getDirections"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="get directions"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

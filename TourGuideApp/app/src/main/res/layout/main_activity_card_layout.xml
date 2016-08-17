@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#EEEEEE"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/CardLayout_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            style="@style/CardLayout_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iron_man"/>
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/CardLayout_name"
+            android:layout_width="match_parent"
+            android:layout_alignBottom="@id/image"
+            android:text="name"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/image"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/explore"
+                style="@style/CardLayout_getDirections"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="explore"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
